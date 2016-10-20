@@ -21,6 +21,8 @@ I hate reading powerpoint slides, but this some of the best stuff I could find w
 - Of confidentiality, integrity, and availability, which is the most important at Redox? See lecture 4 for one possible answer. 
 
 # Module 2: Web Application Security
+We make a web app. There are very specific and immediate vulnerabilities each developer needs to understand well, and defend against. 
+
 ## [OWASP Top 10](https://www.owasp.org/index.php/Top_10_2013-Top_10)
 - [ ] [Injection](https://www.owasp.org/index.php/Top_10_2013-A1-Injection)
 - [ ] [Broken Authentication and Session_Management](https://www.owasp.org/index.php/Top_10_2013-A2-Broken_Authentication_and_Session_Management)
@@ -38,8 +40,18 @@ I hate reading powerpoint slides, but this some of the best stuff I could find w
 - [ ] Complete the free exercises at [hacksplaining](https://www.hacksplaining.com)
 - [ ] Indentify parts of the Redox application that mitigate each of the OWASP top 10
 
+# Module 3: Cryptography
+Redox is a highly networked application. All of that information needs to be secured in transport and at rest. Cryptography is what is lets us do that. 
 
-# Module 3: Cloud Infrastrucutre Security
+## Public key cryptography
+- [ ] [Introduction to Public-Key Cryptography (mozilla)](https://developer.mozilla.org/en-US/docs/Archive/Security/Introduction_to_Public-Key_Cryptography)
+- [ ] [How PGP works](http://www.pgpi.org/doc/pgpintro/)
+
+## Exercises
+- [ ] [Set up Github with your PGP key](https://help.github.com/articles/signing-commits-using-gpg/)
+
+
+# Module 4: Cloud Infrastrucutre Security
 
 # Final Project
 The final project will be a presentation to the team on a recent security topic of interest to you.
