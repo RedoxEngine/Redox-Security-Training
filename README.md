@@ -6,34 +6,62 @@ This module is designed to introduce you to academic concepts in security.
 By the end of this module, you should be able to understand that security is fundamentally risk management. 
 You will also have developed a vocabulary to talk about different kinds of security threats.
 
-## Intro lecutures:
+## Overview of Security:
+- [ ] [Bruce Schneier: The security mirage (ted talk)](https://www.ted.com/talks/bruce_schneier?language=en)
+
+## Introduction to Computer Security:
 I hate reading powerpoint slides, but this some of the best stuff I could find with a general introduction.
 - [ ]  [Lecture 1: Introduction](https://www.cs.utexas.edu/~byoung/cs361/lecture1.pdf)
 - [ ] [Lecture 2: Why Security is Hard](https://www.cs.utexas.edu/~byoung/cs361/lecture2.pdf)
 - [ ] [Lecture 3: Security as Risk Management](https://www.cs.utexas.edu/~byoung/cs361/lecture3.pdf)
 - [ ] [Lecture 4: Aspects of Security](https://www.cs.utexas.edu/~byoung/cs361/lecture4.pdf)
-## General security reading:
-- [ ] [On Security Awareness Training (Bruce Schneier)](http://www.darkreading.com/risk/on-security-awareness-training/d/d-id/1139381?)
-- [ ] [The Hacker Strategy (Dave Aitel)](http://www.immunityinc.com/downloads/DaveAitel_TheHackerStrategy.pdf)
-## Questions for discussion:
 
+## Interesting Bonus Materials:
+- [ ] [On Security Awareness Training (Bruce Schneier)](http://www.darkreading.com/risk/on-security-awareness-training/d/d-id/1139381?)
+- [ ] [Keren Elazari: Hackers: the Internet's immune system](https://www.ted.com/playlists/10/who_are_the_hackers)
+
+## Questions for discussion:
+- In `The security mirage` Bruce Schneier talks about our implicit biases that distort our view of security. What are your biases?
 - Which methods of managing risk apply most to your role at Redox? See lecture 3 for a list.  
 - Of confidentiality, integrity, and availability, which is the most important at Redox? See lecture 4 for one possible answer. 
 
 # Module 2: Web Application Security
-We make a web app. There are very specific and immediate vulnerabilities each developer needs to understand well, and defend against. 
+We make a web app. There are very specific and immediate vulnerabilities each developer needs to understand well, and defend against.
+
+Move slowly through these and finish the hacksplaing exercises on your own terms. This is marathon - not a sprint!
 
 ## [OWASP Top 10](https://www.owasp.org/index.php/Top_10_2013-Top_10)
-- [ ] [Injection](https://www.owasp.org/index.php/Top_10_2013-A1-Injection)
-- [ ] [Broken Authentication and Session_Management](https://www.owasp.org/index.php/Top_10_2013-A2-Broken_Authentication_and_Session_Management)
-- [ ] [Cross-Site Scripting (XSS)](https://www.owasp.org/index.php/Top_10_2013-A3-Cross-Site_Scripting_(XSS))
-- [ ] [Insecure Direct Object References](https://www.owasp.org/index.php/Top_10_2013-A4-Insecure_Direct_Object_References)
-- [ ] [Security Misconfiguration](https://www.owasp.org/index.php/Top_10_2013-A5-Security_Misconfiguration)
-- [ ] [Sensitive Data Exposure](https://www.owasp.org/index.php/Top_10_2013-A6-Sensitive_Data_Exposure)
-- [ ] [Missing Function Level Access Control](https://www.owasp.org/index.php/Top_10_2013-A7-Missing_Function_Level_Access_Control)
-- [ ] [Cross-Site Request Forgery (CSRF)](https://www.owasp.org/index.php/Top_10_2013-A8-Cross-Site_Request_Forgery_(CSRF))
-- [ ] [Using Components with Known Vulnerabilities](https://www.owasp.org/index.php/Top_10_2013-A9-Using_Components_with_Known_Vulnerabilities)
-- [ ] [Unvalidated Redirects and Forwards](https://www.owasp.org/index.php/Top_10_2013-A10-Unvalidated_Redirects_and_Forwards)
+- [ ] [Injection](https://www.owasp.org/index.php/Top_10_2013-A1-Injection) 
+  - [sql-injection](https://www.hacksplaining.com/exercises/sql-injection)
+- [ ] [Broken Authentication and Session_Management](https://www.owasp.org/index.php/Top_10_2013-A2-Broken_Authentication_and_Session_Management) 
+  - [session-fixation](https://www.hacksplaining.com/exercises/session-fixation)
+  - [weak-session](https://www.hacksplaining.com/exercises/weak-session)
+- [ ] [Cross-Site Scripting (XSS)](https://www.owasp.org/index.php/Top_10_2013-A3-Cross-Site_Scripting_(XSS)) 
+  - [xss-stored](https://www.hacksplaining.com/exercises/xss-stored)
+  - [xss-reflected](https://www.hacksplaining.com/exercises/xss-reflected)
+  - [xss-dom](https://www.hacksplaining.com/exercises/xss-dom)
+- [ ] [Insecure Direct Object References](https://www.owasp.org/index.php/Top_10_2013-A4-Insecure_Direct_Object_References) 
+- [ ] [Security Misconfiguration](https://www.owasp.org/index.php/Top_10_2013-A5-Security_Misconfiguration) 
+  - [unencrypted-communication](https://www.hacksplaining.com/exercises/unencrypted-communication)
+  - [broken-access-control](https://www.hacksplaining.com/exercises/broken-access-control)
+- [ ] [Sensitive Data Exposure](https://www.owasp.org/index.php/Top_10_2013-A6-Sensitive_Data_Exposure) 
+  - [user-enumeration](https://www.hacksplaining.com/exercises/user-enumeration)
+  - [information-leakage](https://www.hacksplaining.com/exercises/information-leakage)
+  - [password-mismanagement](https://www.hacksplaining.com/exercises/password-mismanagement)
+- [ ] [Missing Function Level Access Control](https://www.owasp.org/index.php/Top_10_2013-A7-Missing_Function_Level_Access_Control) 
+  - [xss-stored](https://www.hacksplaining.com/exercises/xss-stored)
+  - [privilege-escalation](https://www.hacksplaining.com/exercises/privilege-escalation)
+  - [directory-traversal](https://www.hacksplaining.com/exercises/directory-traversal)
+- [ ] [Cross-Site Request Forgery (CSRF)](https://www.owasp.org/index.php/Top_10_2013-A8-Cross-Site_Request_Forgery_(CSRF)) 
+  - [csrf](https://www.hacksplaining.com/exercises/csrf)
+- [ ] [Using Components with Known Vulnerabilities](https://www.owasp.org/index.php/Top_10_2013-A9-Using_Components_with_Known_Vulnerabilities) 
+  - [xml-bombs](https://www.hacksplaining.com/exercises/xml-bombs)
+  - [file-upload](https://www.hacksplaining.com/exercises/file-upload)
+  - [xml-external-entities](https://www.hacksplaining.com/exercises/xml-external-entities)
+  - [command-execution](https://www.hacksplaining.com/exercises/command-execution)
+- [ ] [Unvalidated Redirects and Forwards](https://www.owasp.org/index.php/Top_10_2013-A10-Unvalidated_Redirects_and_Forwards) 
+  - [click-jacking](https://www.hacksplaining.com/exercises/click-jacking)
+  - [open-redirects](https://www.hacksplaining.com/exercises/open-redirects)
 
 
 ## Exercises
