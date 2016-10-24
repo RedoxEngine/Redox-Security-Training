@@ -1,6 +1,3 @@
-# Goals and Structure
-This course is designed to teach 
-
 # Module 1: Security Fundamentals
 This module is designed to introduce you to academic concepts in security. 
 By the end of this module, you should be able to understand that security is fundamentally risk management. 
@@ -10,7 +7,7 @@ You will also have developed a vocabulary to talk about different kinds of secur
 - [ ] [Bruce Schneier: The security mirage (ted talk)](https://www.ted.com/talks/bruce_schneier?language=en)
 
 ## Introduction to Computer Security:
-I hate reading powerpoint slides, but this some of the best stuff I could find with a general introduction.
+
 - [ ]  [Lecture 1: Introduction](https://www.cs.utexas.edu/~byoung/cs361/lecture1.pdf)
 - [ ] [Lecture 2: Why Security is Hard](https://www.cs.utexas.edu/~byoung/cs361/lecture2.pdf)
 - [ ] [Lecture 3: Security as Risk Management](https://www.cs.utexas.edu/~byoung/cs361/lecture3.pdf)
@@ -26,7 +23,7 @@ I hate reading powerpoint slides, but this some of the best stuff I could find w
 - Of confidentiality, integrity, and availability, which is the most important at Redox? See lecture 4 for one possible answer. 
 
 # Module 2: Web Application Security
-We make a web app. There are very specific and immediate vulnerabilities each developer needs to understand well, and defend against.
+We make a web app. There are very specific and immediate vulnerabilities each developer needs to understand well and defend against.
 
 Move slowly through these and finish the hacksplaing exercises on your own terms. This is marathon - not a sprint!
 
@@ -66,7 +63,7 @@ Move slowly through these and finish the hacksplaing exercises on your own terms
 
 ## Exercises
 - [ ] Complete the free exercises at [hacksplaining](https://www.hacksplaining.com)
-- [ ] Indentify parts of the Redox application that mitigate each of the OWASP top 10
+- [ ] Identify parts of the Redox application that mitigate each of the OWASP top 10
 
 # Module 3: Cryptography
 Redox is a highly networked application. All of that information needs to be secured in transport and at rest. Cryptography is what is lets us do that. 
@@ -79,7 +76,7 @@ Redox is a highly networked application. All of that information needs to be sec
 - [ ] [Set up Github with your PGP key](https://help.github.com/articles/signing-commits-using-gpg/)
 
 
-# Module 4: Cloud Infrastrucutre Security
+# Module 4: Cloud Infrastructure Security
 
 # Final Project
 The final project will be a presentation to the team on a recent security topic of interest to you.
