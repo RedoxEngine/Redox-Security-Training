@@ -88,3 +88,4 @@ Here are some resources for cutting edge topics:
 - [OWASP Youtube channel](https://www.youtube.com/channel/UCe8j61ABYDuPTdtjItD2veA)
 - [Blackhat conference archives](https://www.blackhat.com/html/archives.html) 
 - [Schneier on Security](https://www.schneier.com/) 
+- [Seclists.org](http://seclists.org/oss-sec/)
