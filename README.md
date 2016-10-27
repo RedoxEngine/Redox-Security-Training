@@ -77,6 +77,9 @@ Redox is a highly networked application. All of that information needs to be sec
 
 
 # Module 4: Cloud Infrastructure Security
+- [ ] [AWS Cloud Security Best Practices](https://d0.awsstatic.com/whitepapers/Security/AWS_Security_Best_Practices.pdf) 
+- [ ] [AWS Security Best Practices Video](https://www.youtube.com/watch?v=rXPyGDWKHIo)
+- [ ] [AWS Security Masterclass](https://www.youtube.com/watch?v=zU1x5SfKEzs)
 
 # Final Project
 The final project will be a presentation to the team on a recent security topic of interest to you.
