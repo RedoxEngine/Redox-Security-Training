@@ -89,3 +89,5 @@ Here are some resources for cutting edge topics:
 - [Blackhat conference archives](https://www.blackhat.com/html/archives.html) 
 - [Schneier on Security](https://www.schneier.com/) 
 - [Seclists.org](http://seclists.org/oss-sec/)
+- [National Vulnerability Database](https://nvd.nist.gov/home.cfm)
+- [NodeJS security advisories](https://nodesecurity.io/advisories/)
